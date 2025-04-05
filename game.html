@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game - Spot the Differences</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="game3.svg" type="image/svg+xml">
+</head>
+<body>
+
+<!-- Header: Score & Hints -->
+<div class="game-header">
+  <span id="score">Differences: <strong>5</strong>/5</span>
+  <span id="hints">Hints: <strong>3</strong>/3</span>
+  <button id="hints-button" class="button">💡 Hints</button>
+  <button id="sound-toggle">🔊 Sound On</button>
+  <button id="music-toggle">🚫 Music Off</button>
+</div>
+
+<!-- Game Container -->
+<div id="gameContainer" class="game-container">
+  <img src="assets/images/set1-left.jpg" id="left-image" class="game-image" alt="Left Image">
+  <img src="assets/images/set1-right.jpg" id="right-image" class="game-image" alt="Right Image">
+</div>
+
+<!-- Sound Effects -->
+<audio id="correct-sound" src="assets/audio/correct.mp3"></audio>
+<audio id="error-sound" src="assets/audio/error.mp3"></audio>
+<!-- Background Music (Hidden) -->
+<audio id="bg-music-1" src="assets/audio/starlight.mp3"></audio>
+<audio id="bg-music-2" src="assets/audio/ashesofhiroshima.mp3"></audio>
+<audio id="bg-music-3" src="assets/audio/pianomoment.mp3"></audio>
+<!-- Next Button -->
+<button id="next-button" style="display:none;">Next</button>
+
+<script defer src="js/game.js"></script>
+
+<footer>
+  <p>Copyright © 2025 Spot the Differences by Joker.co | All rights reserved.</p>
+</footer>
+
+</body>
+</html>
