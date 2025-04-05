@@ -181,3 +181,26 @@ button {
   margin-top: 30px;
   margin-bottom: 20px;
 }
+
+/*jokerco logo */
+.hover-logo {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.logo-tooltip {
+  display: none;
+  position: absolute;
+  top: -120px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  z-index: 10;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.hover-logo:hover .logo-tooltip {
+  display: block;
+}
