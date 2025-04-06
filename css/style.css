@@ -204,3 +204,18 @@ button {
 .hover-logo:hover .logo-tooltip {
   display: block;
 }
+
+/* Preview */
+.preview-img {
+  width: 450px;
+  height: auto;
+  margin: 40px;
+  border-radius: 12px;
+  transition: transform 0.8s ease;
+}
+
+.preview-img:hover {
+  transform: rotateY(180deg);
+  cursor: pointer;
+}
+
