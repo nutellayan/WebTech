@@ -1,0 +1,48 @@
+1
+00:00:00,000 --> 00:00:01,000
+Top left: “Differences: 5/5” means there are 5 differences to find in this level.
+
+2
+00:00:01,001 --> 00:00:01,700
+Each time you find a correct difference, this number decreases.
+
+3
+00:00:01,701 --> 00:00:03,000
+To the right: “Hints: 3/3” means you have 3 hints.
+
+4
+00:00:03,001 --> 00:00:04,000
+Once used, no more hints will be available.
+
+5
+00:00:04,001 --> 00:00:05,500
+Hints button in green will show a dashed circle as a clue.
+
+6
+00:00:05,501 --> 00:00:07,400
+The hint disappears after a few seconds — pay attention!
+
+7
+00:00:07,401 --> 00:00:08,900
+“Sound On” plays sounds for right and wrong clicks.
+
+8
+00:00:08,901 --> 00:00:09,000
+Correct clicks sound cheerful, wrong ones sound different.
+
+9
+00:00:09,001 --> 00:00:10,800
+“Music On” toggles background music — it's random and optional.
+
+10
+00:00:10,801 --> 00:00:15,800
+No timer — play at your own pace.
+
+11
+00:00:15,801 --> 00:00:17,000
+You can see 2 pictures below, seems the same, but they are not!
+
+12
+00:00:17,001 --> 00:00:19,600
+Let's have a look!
+
