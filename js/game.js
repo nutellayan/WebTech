@@ -165,6 +165,58 @@ const imageSets = [
       { x: 565, y: 322 }
     ]
   },
+  {
+    leftImageSrc: "assets/images/set13-left.jpg",
+    rightImageSrc: "assets/images/set13-right.jpg",
+    correctSpots: [
+      { x: 243, y: 148 },
+      { x: 536, y: 221 },
+      { x: 123, y: 373 },
+      { x: 11, y: 559 },
+      { x: 195, y: 573 },
+      { x: 301, y: 540 },
+      { x: 473, y: 532 },
+      { x: 688, y: 485 },
+      { x: 603, y: 630 },
+      { x: 253, y: 721 },
+      { x: 263, y: 892 },
+    ]
+  },
+  {
+    leftImageSrc: "assets/images/set14-left.jpg",
+    rightImageSrc: "assets/images/set14-right.jpg",
+    correctSpots: [
+      { x: 911, y: 36 },
+      { x: 536, y: 165 },
+      { x: 710, y: 229 },
+      { x: 583, y: 381 },
+      { x: 252, y: 409 },
+      { x: 89, y: 331 },
+      { x: 912, y: 594 },
+      { x: 105, y: 773 },
+      { x: 455, y: 772 },
+      { x: 677, y: 863 },
+      { x: 851, y: 810 },
+    ]
+  },
+  {
+    leftImageSrc: "assets/images/set15-left.jpg",
+    rightImageSrc: "assets/images/set15-right.jpg",
+    correctSpots: [
+      { x: 290, y: 54 },
+      { x: 509, y: 52 },
+      { x: 68, y: 178 },
+      { x: 242, y: 372 },
+      { x: 422, y: 372 },
+      { x: 702, y: 341 },
+      { x: 398, y: 499 },
+      { x: 11, y: 508 },
+      { x: 101, y: 677 },
+      { x: 320, y: 925 },
+      { x: 740, y: 544 },
+      { x: 677, y: 775 },
+    ]
+  },
   // Add more image sets here as you want
 ];
 
