@@ -188,6 +188,11 @@ button {
   margin-bottom: 20px;
 }
 
+.game-image {
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
 /*jokerco logo */
 .hover-logo {
   position: relative;
