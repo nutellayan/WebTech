@@ -115,11 +115,17 @@ main {
 }
 
 .game-image {
-  width: 45%;
+  max-width: 100%;
+  max-height: 80vh;
+  height: auto;
+  width: auto;
   border: 3px solid #c1abac;
   cursor: pointer;
   transition: transform 0.2s ease-in-out;
+  display: block;
+  margin: 0 auto;
 }
+
 .circle {
   position: absolute;
   width: 40px;
@@ -158,7 +164,7 @@ button {
   position: absolute;
   width: 50px;
   height: 50px;
-  border: 5px dashed rgb(30, 250, 217);
+  border: 5px dashed rgb(25, 245, 212);
   border-radius: 50%;
   pointer-events: none;
   transform: translate(-50%, -50%);
@@ -170,7 +176,7 @@ button {
 #next-button {
   display: inline-block; /* Initially hidden, shown after all differences are found */
   padding: 20px 25px;
-  background-color: #490480; /* Blue background */
+  background-color: #740ac9; /* Blue background */
   color: white; /* Text color */
   font-family: Montserrat, fantasy;
   font-size: 24px;
