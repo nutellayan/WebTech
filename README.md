@@ -1,8 +1,4 @@
-# Spot the Differences Game
-<p align="right">
-  <img src="assets/jokerco.gif" alt="Joker.co Logo" width="70"/>
-</p>
-
+# ️ Spot the Differences Game ![](images/jokerco.gif)
 A fun and interactive web-based **Spot the Differences** game built with **HTML, CSS, and JavaScript** as part of my Web Technologies coursework. Players compare two images side by side to find visual differences — supported by hints, sound effects, and clean visual feedback.
 
 ---
