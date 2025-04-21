@@ -51,7 +51,3 @@ The demo uses a unique image set not found in the actual game.
 
 This project is for educational use only.
 © 2025 Joker.co | All rights reserved.
-
-<p align="center">
-  <img src="assets/images/jokerco.PNG" alt="Joker.co Logo" width="100"/>
-</p>
