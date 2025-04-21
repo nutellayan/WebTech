@@ -6,7 +6,7 @@ A fun and interactive web-based **Spot the Differences** game built with **HTML,
 
 ##  Features
 
-- **15 progressively challenging levels** — starting with 5 differences, increasing to 11 in later stages.
+- **15 progressively challenging levels** — starting with 5 differences, increasing to 12 in later stages.
 - **3 hints per level** — highlights a remaining difference for a few seconds.
 - **Sound effects** for correct and incorrect clicks.
 - **Toggleable background music** and sound settings, remembered during play.
