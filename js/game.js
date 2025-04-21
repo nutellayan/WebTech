@@ -302,12 +302,19 @@ function checkClick(event, image) {
 
 // Function to draw a circle around the clicked difference
 function markDifference(x, y) {
+  const container = document.getElementById("gameContainer");
+  const containerRect = container.getBoundingClientRect();
+
   const circle = document.createElement("div");
   circle.classList.add("circle");
-  circle.style.left = `${x - 5}px`; // Adjust for center alignment
-  circle.style.top = `${y - 5}px`;
-  document.getElementById("gameContainer").appendChild(circle);
+
+  // Adjust coordinates relative to container
+  circle.style.left = `${x - containerRect.left}px`;
+  circle.style.top = `${y - containerRect.top}px`;
+
+  container.appendChild(circle);
 }
+
 // Handle hints button click
 hintsButton.addEventListener("click", function () {
   if (hintsLeft > 0 && correctSpots.length > 0) {
@@ -321,8 +328,12 @@ hintsButton.addEventListener("click", function () {
 
     const hintCircle = document.createElement("div");
     hintCircle.classList.add("hint-circle");
-    hintCircle.style.left = `${adjustedX}px`;
-    hintCircle.style.top = `${adjustedY}px`;
+    const container = document.getElementById("gameContainer");
+    const containerRect = container.getBoundingClientRect();
+
+    hintCircle.style.left = `${adjustedX - containerRect.left}px`;
+    hintCircle.style.top = `${adjustedY - containerRect.top}px`;
+
 
     document.getElementById("gameContainer").appendChild(hintCircle);
 
@@ -344,8 +355,13 @@ rightImage.addEventListener("click", (e) => checkClick(e, rightImage));
 
 // Load the next set of images when the "Next" button is clicked
 nextButton.addEventListener("click", function () {
-  currentSet = (currentSet + 1) % imageSets.length; // Move to next set, loop back to first set if at the end
-  resetGame(); // Reset for the next set
+  if (currentSet < imageSets.length - 1) {
+    currentSet++;
+    resetGame();
+  } else {
+    alert("🎉 That’s all! You’ve completed every level!");
+    nextButton.style.display = "none"; // Optionally hide it forever
+  } // Reset for the next set
 });
 
 let musicEnabled = false;
