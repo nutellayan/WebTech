@@ -20,13 +20,13 @@ A fun and interactive web-based **Spot the Differences** game built with **HTML,
 ## Technical Overview
 
 - Developed in **IntelliJ IDEA** using:
-  - `index.html` – Homepage
-  - `game.html` – Game logic and UI
-  - `demo.html` – Subtitled video walkthrough
+  - index.html – Homepage
+  - game.html – Game logic and UI
+  - demo.html – Subtitled video walkthrough
   - Supporting pages: FAQ, Contact
-- JavaScript interactivity in `game.js`
-- Design and layout in `style.css`
-- Assets organized into `images/` and `audio/` folders
+- JavaScript interactivity in game.js
+- Design and layout in style.css
+- Assets organized into images/ and audio/ folders
 
 ---
 
@@ -35,14 +35,14 @@ A fun and interactive web-based **Spot the Differences** game built with **HTML,
 - No timer — designed to be stress-free and casual
 - No penalty for wrong clicks
 - All differences must be found to complete a level
-- Simple alerts (e.g. `alert("You found all differences!")`) used for feedback
+- Simple alerts (e.g. alert("You found all differences!")) used for feedback
 - A 'Next' button appears to continue to the next level after completion
 
 ---
 
 ## Demo Video
 
-Check out the demo (in `demo.html`) to get a quick walkthrough of gameplay and UI features.
+Check out the demo (in demo.html) to get a quick walkthrough of gameplay and UI features.
 The demo uses a unique image set not found in the actual game.
 
 ---
